@@ -17,18 +17,47 @@
 
     --color-primary: #00A000;
     --color-black: #000001;
-    --color-grey: #000000;
+    --color-grey: #666667;
     --color-white: #FFFFFF;
     --color-BG-Overlay: #FAFAFA;
    
     /* Configurações de Fontes */
     --font-family: "Gilroy";
-
-    --font-SemiBold-1-size: 18px;
+    
+    --font-SemiBold-1-size: 16px;
     --font-headline-1-weight: "600";
+    --font-SemiBold-2-size: 18px;
+    --font-headline-2-weight: "600";
+    
     
 }
 
 body {
     font-family: 'Gilroy', sans-serif; 
+       
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    padding: 14px 32px;
+    border-radius: 4px;
+    align-self: flex-start; /*aqui foi adicionado por causa do botão, mas ele não preencher o espaço completamente*/
+    margin-top: 16px;
+}
+.btn-primary a{
+    color: var(--color-netral-white);
+}
+
+.nav-header .active-menu {
+    color: var(--color-primary);
+    font-weight: 500 !important;
+
 }
