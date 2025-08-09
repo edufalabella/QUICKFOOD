@@ -32,7 +32,7 @@ Website para delivery de comida saudável desenvolvido com HTML e CSS puros para
 - Efeitos hover interativos
 
 ## 🎨 Layout
-![Preview](https://raw.githubusercontent.com/edufalabella/QUICKFOOD/main/docs/Thumbnail.png)
+![Preview](https://raw.githubusercontent.com/edufalabella/QUICKFOOD/refs/heads/main/src/assets/images/layout-site.png)
 
 ## 🚀 Como executar
 1. Clone o repositório
