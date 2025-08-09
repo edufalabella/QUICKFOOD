@@ -338,3 +338,81 @@ header{
 
 
 /* ------------ FIM ABOUT US ------------ */
+
+/* ------------ SUBSCRIBE ------------ */
+
+
+.section-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: var(--color-grey-back);
+    text-align: center;
+}
+
+.section-subscribe p{
+    margin-top: 8px;
+}
+
+.container-subscribe-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.container-subscribe-headline h2{
+    display: flex;
+    font-size: var(--font-headline-1size);
+    font-weight: var(--font-headline-3-weight);
+}
+
+.container-subscribe-headline p{
+    color: var(--color-grey);
+    font-size: var(--font-SemiBold-2-size);
+}
+
+.container-subscribe-headline-form form {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-grey-form);
+    border-radius: 8px;
+    width: 710px;
+    height: 77px;
+}
+
+.container-subscribe-headline-form form input {
+    padding: 10px 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #D9DBE1;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+    width: 690px;
+}
+
+.container-subscribe-headline-form form input::placeholder {
+    color: var(--color-grey);
+    font-size: var(--font-SemiBold-3-size);
+    font-weight: var(--font-SemiBold-3-weight);
+
+}
+
+.container-subscribe-headline-form form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: 0.3s;    
+}
+
+.container-subscribe-headline-form form button:hover {
+    background-color: var(--color-primary);
+}
+
+/* ------------ FIM SUBSCRIBE ------------ */
