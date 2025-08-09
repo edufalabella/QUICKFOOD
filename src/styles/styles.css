@@ -158,7 +158,7 @@ header{
     align-items: center;
     justify-items: center;
     margin-top: 60px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .container-choose-us-numbers-quantify {
@@ -172,5 +172,169 @@ header{
 }
 
 
-
 /*-- ------------  CHOOSE US ---------- --*/
+
+/* ------------ SPECIAL DISHES FOR YOU ------------ */
+.section-special-dishes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: var(--color-white);
+    text-align: center;
+}
+
+.section-special-dishes p{
+    margin-top: 8px;
+}
+
+.container-special-dishes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-special-dishes p {
+    width: 242px;
+}
+
+.container-special-dishes-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.container-special-dishes-headline h2{
+    display: flex;
+    font-size: var(--font-headline-1size);
+    font-weight: var(--font-headline-3-weight);
+}
+
+.container-special-dishes-headline p{
+    color: var(--color-grey);
+    font-size: var(--font-SemiBold-2-size);
+}
+
+.container-special-dishes-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 339px;
+}
+
+/* ------------ OUR CLIENTS ------------ */
+
+.section-our-clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: var(--color-grey-back);
+    text-align: center;
+}
+
+.section-our-clients p{
+    margin-top: 8px;
+}
+
+.container-our-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-our-clients p {
+    width: 319px;
+    height: 105px;
+}
+
+.container-our-clients-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.container-our-clients-headline h2{
+    display: flex;
+    font-size: var(--font-headline-1size);
+    font-weight: var(--font-headline-3-weight);
+}
+
+.container-our-clients-headline p{
+    color: var(--color-grey);
+    font-size: var(--font-SemiBold-2-size);
+}
+
+.container-our-clients-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 339px;
+    background-color: var(--color-white);
+    margin-right: 21px;
+    border-radius: 15px;
+}
+
+.container-our-clients-cards img {
+    margin-bottom: 24px;
+}
+
+.container-our-clients-cards h3{
+    margin-bottom: 8px;
+}
+
+/* ------------ FIM OUR CLIENTS ------------ */
+
+/* ------------ ABOUT US -------- */
+
+.container-about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 100px;
+    
+}
+.conteiner-about-us-know-products {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 563px;
+    height: 391px;
+    padding: 0px 124px 0px 0px;
+}
+
+.conteiner-about-us-know-products h1{
+    font-size: var(--font-headline-1size);
+    font-weight: var(--font-headline-1-weight);
+
+}
+
+.conteiner-about-us-know-products p {
+    font-size: var(--font-SemiBold-2-size);
+    font-weight: var(--font-SemiBold-0-weight);
+    color: var(--color-grey);
+    line-height: 1.6;
+    
+}
+
+.conteiner-about-us-know-products span{
+    color: var(--color-primary);
+}
+
+.conteiner-about-us-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+}
+
+
+
+/* ------------ FIM ABOUT US ------------ */
