@@ -1,57 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QUICKFOOD</title>
-    <link rel="stylesheet" href="./src/styles/styles.css">
-</head>
-<body>
-     <!-- ------------ HEADER ----------  -->
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+  </head>
+  <body>
+    <!-- ------------ HEADER ----------  -->
     <header>
-        <div class="container-cabecalho-">
-            <img src="./src/assets/images/logo.svg" alt="Logomarca do QUICKFOOD">
-        </div>
+      <div class="container-cabecalho">
+        <img src="./src/assets/images/logo.svg" alt="Logomarca do QUICKFOOD" />
+      </div>
 
-        <nav class="nav-header">
-            <ul>
-                    <li><a href="#" class="active-menu">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">About</a></li>
-            </ul>
-        </nav>
+      <nav class="nav-header">
+        <ul>
+          <li><a href="#" class="active-menu">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
 
-        <div class="container-btn-header">
-            <div class="container-btn-header-img-pesquisa"></div>
-            <img src="./src/assets/images/icon-search.svg" alt="">
-            <img class="container-btn-header-img-carrinho"  src="./src/assets/images/icon-carrinho.svg" alt="">
-            <button class="btn-secundary"><a href="#">Login</a></button>
-        </div>
+      <div class="container-btn-header">
+        <div class="container-btn-header-img-pesquisa"></div>
+        <img src="./src/assets/images/icon-search.svg" alt="" />
+        <img
+          class="container-btn-header-img-carrinho"
+          src="./src/assets/images/icon-carrinho.svg"
+          alt=""
+        />
+        <button class="btn-secundary"><a href="#">Login</a></button>
+      </div>
     </header>
-        <!-- ------------ HEADER ----------  -->
+    <!-- ------------ HEADER ----------  -->
 
-        <!-- ------------ MAIN ----------  -->
-         <main class="container-main-content">
-            <div class="conteiner-main-content-know-products">
-                <h1>We deliver <span>Healthy & Delicious </span>Food</h1>
-                <p>Order online or book a table.We are always ready to fulfill your demand.You would get fastest delivery you could ever imagine.Keep in touch with us to take your delicious foods.</p>
+    <!-- ------------ MAIN ----------  -->
+    <main class="container-main-content">
+      <div class="conteiner-main-content-know-products">
+        <h1>We deliver <span>Healthy & Delicious </span>Food</h1>
+        <p>
+          Order online or book a table.We are always ready to fulfill your
+          demand.You would get fastest delivery you could ever imagine.Keep in
+          touch with us to take your delicious foods.
+        </p>
+
+        <div class="conteiner-main-content-buttons">
+          <button class="btn-primary"><a href="#">Order Now</a></button>
+          <button class="btn-secondary">
+            <a href="#">Explore Products</a>
+          </button>
+        </div>
+      </div>
+      <div class="conteiner-main-content-image">
+        <img
+          src="./src/assets/images/image-content.svg"
+          alt="Imagem de um prato com alimentos naturais, como ovos, peixe, tomates e outros ingredientes frescos."
+        />
+      </div>
+    </main>
+
+    <!-- ------------ FIM MAIN ----------  -->
+
+    <!-- ------------ CHOOSE-US ----------  -->
+    <section class="section-choose-us">
+        <div class="container-choose-us-headline">
+            <h2>Why Choose Us?</h2>
+            <p>
+              We offer delicious and healthy foods, quick payment and we deliver
+              fast.
+            </p>
+        </div>
+
+        <div class="container-choose-us">
+            <div class="container-choose-us-cards container-choose-us-card-best-offer">
+                <img src="./src/assets/images/image-best-offer.svg" alt="" />
+                <h3>Best Offer</h3>
+                <p>We offer you healthy & delicious food with good hygiene.</p>
+            </div>
+
+            <div class="container-choose-us-cards container-choose-us-card-easy-payment">
+                <img src="./src/assets/images/image-easy-payment.svg" alt="" />
+                <h3>Easy Payment</h3>
+                <p>Payment is easy and quick to order your foods.</p>
                 
-                <div class="conteiner-main-content-buttons">
-                    <button class="btn-primary"><a href="#">Order Now</a></button>
-                    <button class="btn-secondary"><a href="#">Explore Products</a></button>
-                </div>
-            </div>
-            <div class="conteiner-main-content-image">
-                <img src="./src/assets/images/image-content.svg" alt="Imagem de um prato com alimentos naturais, como ovos, peixe, tomates e outros ingredientes frescos.">
             </div>
 
-         </main>
+            <div class="container-choose-us-cards container-choose-us-card-fatest-delivery">
+                <img src="./src/assets/images/image-fastest.svg" alt="" />
+                <h3>Fastest delivery</h3>
+                <p>Our delivery is super active and run delivery inter state</p>
+            </div>
+          </div>
 
-        <!-- ------------ FIM MAIN ----------  -->
+          
+          <div class="container-choose-us-numbers">
+          <div class="container-choose-us-numbers-quantify">
+            <h3>40+</h3>
+                <p>Foods Available</p>
+          </div>
+          <div class="container-choose-us-numbers-quantify">
+            <h3>600+</h3>
+                <p>Happy Clients</p>
+          </div>
+          <div class="container-choose-us-numbers-quantify">
+            <h3>5k+</h3>
+                <p>Online Orders</p>
+          </div>
+          </div>
 
-
-
-
-</body>
+        </div>
+    </div>
+</section>
+    <!-- ------------ FIM CHOOSE-US ----------  -->
+  </body>
 </html>
