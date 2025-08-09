@@ -387,14 +387,17 @@ header{
 .container-subscribe-headline-form form input {
     padding: 10px 12px;
     background-color: rgba(255, 255, 255, 0.2);
-    color: #D9DBE1;
     border-radius: 8px 0px 0px 8px;
     outline: none;
     width: 690px;
+    color: var(--color-grey);
+    font-size: var(--font-SemiBold-3-size);
+    font-weight: var(--font-SemiBold-3-weight);
+    
 }
 
 .container-subscribe-headline-form form input::placeholder {
-    color: var(--color-grey);
+    color: var(--color-grey2);
     font-size: var(--font-SemiBold-3-size);
     font-weight: var(--font-SemiBold-3-weight);
 
@@ -510,7 +513,7 @@ footer {
     align-items: center;
     background-color: var(--color-primary);
     color: var(--color-white);
-    margin-top: 2px;
+    margin-top: 1px;
     padding: 16px 0px 80px 0px;
 }
 
